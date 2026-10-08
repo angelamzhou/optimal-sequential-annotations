@@ -1,0 +1,14 @@
+# Versions used to produce the paper's figures (Python 3.12).
+numpy==2.2.6
+pandas==2.3.1
+matplotlib==3.10.3
+scipy==1.16.0
+scikit-learn==1.7.1
+joblib==1.5.1
+pyarrow==20.0.0
+
+# Optional:
+#   cvxpy==1.9.2                      kernel-balancing comparison arms in src/synthetic/singh_dtr_benchmark.py
+#   huggingface_hub==0.33.4           rebuilding the LMArena inputs (src/arena/)
+#   torch==2.11.0 transformers==4.53.3 accelerate   reward-model scores (src/arena/score_reward_model.py, GPU)
+#   poppler (pdftoppm)                raster comparison in figures/compare_to_paper.py
